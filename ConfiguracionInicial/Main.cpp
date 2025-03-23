@@ -1,8 +1,3 @@
-#Santiago Adrian Cruz Hernandez
-#318103273
-#fecha de entrega 16/03/2025
-#Previo Texturizado 
-
 #include<iostream>
 
 //#define GLEW_STATIC
@@ -42,7 +37,7 @@ void CrearShader(void);
 
 int main() {
 	glfwInit();
-	//Verificaci贸n de compatibilidad 
+	//Verificaci髇 de compatibilidad 
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
@@ -55,7 +50,7 @@ int main() {
 
 	glfwGetFramebufferSize(window, &screenWidth, &screenHeight);
 
-	//Verificaci贸n de errores de creacion  ventana
+	//Verificaci髇 de errores de creacion  ventana
 	if (nullptr == window) 
 	{
 		std::cout << "Failed to create GLFW window" << std::endl;
@@ -67,7 +62,7 @@ int main() {
 	glfwMakeContextCurrent(window);
 	glewExperimental = GL_TRUE;
 
-	//Verificaci贸n de errores de inicializaci贸n de glew
+	//Verificaci髇 de errores de inicializaci髇 de glew
 
 	if (GLEW_OK != glewInit()) {
 		std::cout << "Failed to initialise GLEW" << std::endl;
@@ -153,7 +148,7 @@ void CrearShader()
 	glCompileShader(vertexShader);
 
 
-	// Verificamos los errores en tiempo de ejecuci贸n
+	// Verificamos los errores en tiempo de ejecuci髇
 	GLint success;
 	GLchar infoLog[512];
 
@@ -174,7 +169,7 @@ void CrearShader()
 	glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
 	glCompileShader(fragmentShader);
 
-	// Verificamos los errores en tiempo de ejecuci贸n
+	// Verificamos los errores en tiempo de ejecuci髇
 
 	glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);
 

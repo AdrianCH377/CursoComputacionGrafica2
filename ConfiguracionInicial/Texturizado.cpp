@@ -1,8 +1,4 @@
-#Santiago Adrian Cruz Hernandez
-#318103273
-#fecha de entrega 16/03/2025
-#Previo Texturizado 
-	
+
 #include <iostream>
 #include <cmath>
 
