@@ -9,12 +9,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Archivos de origen\Shader">
-      <UniqueIdentifier>{c59716ce-eb2d-4237-b7e2-3f1dd3c1f5dc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Archivos de origen\Archivos de encabezado">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\Archivos de encabezado\Shader">
+      <UniqueIdentifier>{c59716ce-eb2d-4237-b7e2-3f1dd3c1f5dc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,22 +27,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\modelLoading.frag">
-      <Filter>Archivos de origen\Shader</Filter>
+      <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
     <None Include="Shader\modelLoading.vs">
-      <Filter>Archivos de origen\Shader</Filter>
+      <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
     <None Include="Shader\lamp.frag">
-      <Filter>Archivos de origen\Shader</Filter>
+      <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
     <None Include="Shader\lamp.vs">
-      <Filter>Archivos de origen\Shader</Filter>
+      <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
     <None Include="Shader\lighting.frag">
-      <Filter>Archivos de origen\Shader</Filter>
+      <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
     <None Include="Shader\lighting.vs">
-      <Filter>Archivos de origen\Shader</Filter>
+      <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

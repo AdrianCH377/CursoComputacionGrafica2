@@ -1,0 +1,8 @@
+# Materiales para la esfera
+
+newmtl material1
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.000000 0.000000  # Color rojo
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
