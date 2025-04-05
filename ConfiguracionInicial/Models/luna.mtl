@@ -1,0 +1,9 @@
+# Material para la luna
+newmtl moon_texture.png
+Ns 10.0000
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 1.0 1.0 1.0
+Ni 1.4500
+d 1.0
+illum 2

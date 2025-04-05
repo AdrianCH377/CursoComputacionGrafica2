@@ -115,6 +115,7 @@ int main()
     Model Sun((char*)"Models/Sun.obj");
     Model forest((char*)"Models/Mountain.obj");
     Model RedDog((char*)"Models/RedDog.obj");
+    Model Poste((char*)"Models/ball.obj");
 
 
     glm::mat4 projection = glm::perspective(camera.GetZoom(),
@@ -302,6 +303,11 @@ int main()
             1, GL_FALSE, glm::value_ptr(modeld));
         RedDog.Draw(lightingShader);
 
+        glm::mat4 modelp(1.0f);
+        modelp = glm::scale(modelp, glm::vec3(0.2f, 0.2f, 0.2f));
+        glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"),
+            1, GL_FALSE, glm::value_ptr(modelp));
+        Poste.Draw(lightingShader);
 
 
         glBindVertexArray(0);
