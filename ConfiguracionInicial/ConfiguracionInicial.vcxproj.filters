@@ -26,27 +26,21 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\modelLoading.frag">
-      <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
-    </None>
-    <None Include="Shader\modelLoading.vs">
-      <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
-    </None>
     <None Include="Shader\lamp.frag">
       <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
     <None Include="Shader\lamp.vs">
       <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
-    <None Include="Shader\lighting.frag">
+    <None Include="Shader\modelLoading.frag">
       <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
-    <None Include="Shader\lighting.vs">
+    <None Include="Shader\modelLoading.vs">
       <Filter>Archivos de origen\Archivos de encabezado\Shader</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fuentesDeLuz.cpp">
+    <ClCompile Include="..\..\ConfiguracionInicial\Texturizado.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

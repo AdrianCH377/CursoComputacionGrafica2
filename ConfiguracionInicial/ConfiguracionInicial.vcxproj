@@ -25,13 +25,11 @@
   <ItemGroup>
     <None Include="Shader\lamp.frag" />
     <None Include="Shader\lamp.vs" />
-    <None Include="Shader\lighting.frag" />
-    <None Include="Shader\lighting.vs" />
     <None Include="Shader\modelLoading.frag" />
     <None Include="Shader\modelLoading.vs" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fuentesDeLuz.cpp" />
+    <ClCompile Include="..\..\ConfiguracionInicial\Texturizado.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -96,7 +94,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>"C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\assimp\lib";C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLFW\lib-vc2015;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLEW\lib\Release\Win32;"C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\SOIL2\lib";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\assimp\lib;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLFW\lib-vc2015;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLEW\lib\Release\Win32;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\SOIL2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp-vc140-mt.lib;soil2-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -115,7 +113,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>"C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\assimp\lib";C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLFW\lib-vc2015;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLEW\lib\Release\Win32;"C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\SOIL2\lib";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\assimp\lib;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLFW\lib-vc2015;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLEW\lib\Release\Win32;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\SOIL2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp-vc140-mt.lib;soil2-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -130,7 +128,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>"C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\assimp\lib";C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLFW\lib-vc2015;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLEW\lib\Release\Win32;"C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\SOIL2\lib";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\assimp\lib;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLFW\lib-vc2015;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLEW\lib\Release\Win32;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\SOIL2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp-vc140-mt.lib;soil2-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -149,7 +147,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>"C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\assimp\lib";C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLFW\lib-vc2015;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLEW\lib\Release\Win32;"C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\SOIL2\lib";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\assimp\lib;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLFW\lib-vc2015;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\GLEW\lib\Release\Win32;C:\Users\HP\OneDrive\Desktop\ConfiguracionInicial\External Libraries\SOIL2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp-vc140-mt.lib;soil2-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
